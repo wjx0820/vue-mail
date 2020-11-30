@@ -24,6 +24,12 @@
       <button @click="emailSelection.archive" :disabled="numberSelected === 0">
         归档
       </button>
+      <button
+        @click="emailSelection.moveToInbox"
+        :disabled="numberSelected === 0"
+      >
+        移动到收件箱
+      </button>
     </span>
   </div>
 </template>

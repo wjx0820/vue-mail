@@ -1,24 +1,7 @@
-# vue-mail
+# 📮vue-mail💌
 
-## Project setup
-```
-npm install
-```
+## persistent REST API
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+You can use GET, POST, PUT, PATCH and DELETE. Changes are persisted between calls.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Using json-server hosted on Glitch, according to [this post](https://juliangaramendy.dev/json-server-glitch/)

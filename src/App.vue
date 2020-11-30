@@ -144,6 +144,9 @@ input[type="checkbox"]:checked {
   overflow-y: hidden;
   margin: 0;
 }
+.mail-table td button {
+  min-width: 120px;
+}
 
 .mail-table td.date {
   width: 120px;

@@ -15,7 +15,7 @@
     </h2>
     <div>
       <h4>来自: {{ email.from }}</h4>
-      <h4>时间: {{ format(new Date(email.sentAt), "yyyy年MM月d日") }}</h4>
+      <h4>时间: {{ format(new Date(email.sentAt), "yyyy年MM月dd日") }}</h4>
     </div>
     <div v-html="marked(email.body)" />
   </div>
@@ -29,15 +29,6 @@ import useKeydown from "@/composition/useKeydown";
 
 export default {
   setup(props, { emit }) {
-    // let email = props.email;
-    // let toggleRead = () => {
-    //   email.read = !email.read
-    //   axios.put(`http://localhost:3000/emails/${email.id}`, email)
-    // }
-    // let toggleArchive = () => {
-    //   email.archived = !email.archived
-    //   axios.put(`http://localhost:3000/emails/${email.id}`, email)
-    // }
     let toggleRead = () => {
       emit("change-email", { toggleRead: true, save: true });
     };

@@ -9,7 +9,7 @@
     @click="selectedScreen = 'archive'"
     :disabled="selectedScreen == 'archive'"
   >
-    邮件归档
+    归档邮件
   </button>
 
   <BulkActionBar :emails="filteredEmails" />
@@ -31,13 +31,27 @@
         <td @click="openEmail(email)">{{ email.from }}</td>
         <td @click="openEmail(email)">
           <p>
-            <strong>{{ email.subject }}</strong> - {{ email.body }}
+            <strong>{{ email.subject }}</strong> -
+            <small>{{ email.body }}</small>
           </p>
         </td>
         <td class="date" @click="openEmail(email)">
-          {{ format(new Date(email.sentAt), "yyyy年MM月d日") }}
+          {{ format(new Date(email.sentAt), "yyyy年MM月dd日") }}
         </td>
-        <td><button @click="archiveEmail(email)">归档</button></td>
+        <td>
+          <button
+            v-show="selectedScreen === 'inbox'"
+            @click="archiveEmail(email)"
+          >
+            归档
+          </button>
+          <button
+            v-show="selectedScreen === 'archive'"
+            @click="archiveEmail(email)"
+          >
+            移至收件箱
+          </button>
+        </td>
       </tr>
     </tbody>
   </table>
