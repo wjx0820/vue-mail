@@ -1,0 +1,40 @@
+{
+  "emails": [
+    {
+      "id": 1,
+      "from": "team@vuemastery.com",
+      "subject": "What's up with Vue 3.0? Here's how to find out from Evan You",
+      "body": "The opening keynote of VueConf US this year was Evan You (the creator of Vue), giving his State of the Vuenion address. He walked us through the journey of getting Vue 3 from a prototype to a reality the past year. He also dove into Vue's overall growth in the community.",
+      "sentAt": "2020-03-27T18:25:43.511Z",
+      "archived": true,
+      "read": true
+    },
+    {
+      "id": 2,
+      "from": "q.pybiw@jbxsuig.sc",
+      "subject": "进装决都志书",
+      "body": "各类无最许山由为活亲研里才般可节。此间般圆省风改月热马管收力通深。单白条受深积战在声就至今等并手切省温。养原会品指了五空你温华格们权。老北处道动解海这之根面程须。规小海局方热而究条给口过么心。将行空外论动业口把以反传联节却使立。性三向设所文能后决层电化并极物。商性两热林给研圆教得运走大技。率里进成起说族回府商中物备山问水八水。知表离治所实没对集变速江经易业共。回何较持明特深体京历青力出总术必车。头派提几家进存严较最具光写身。节计手带系离广南种子去产门却党意。",
+      "sentAt": "2012-04-16 19:13:09",
+      "archived": false,
+      "read": true
+    },
+    {
+      "id": 3,
+      "from": "r.yflsro@qwn.gh",
+      "subject": "写市有间织油干",
+      "body": "干车家节力里通当器区验保中。还队然起日斯型再西龙化结商来型部其。深王次外传道委先再只各些长。成节走石历图基术却听技三市信别也示。其正容联生程容酸世况青何车标高保非。然期百理路团毛火加场和可识引西每。拉之相住七表利西车品准算到。律记九转价身火路节才位天情式也成。型电深记革候事具几里完认运合世。往山儿边什都时议务完少求大实工适。取得总需形查支市龙行风容今打在根。几毛代重制二包表更反问都。温市参单影步认集经正产见效接月便且去。",
+      "sentAt": "2020-11-09 12:47:09",
+      "archived": false,
+      "read": true
+    },
+    {
+      "id": 4,
+      "from": "anthony@vuejsdevelopers.com",
+      "subject": "'Vue 3 Release Roadmap' + 6 more must-read articles from this week",
+      "body": "Newsletter Issue #161",
+      "sentAt": "2020-03-24T18:25:43.511Z",
+      "archived": true,
+      "read": true
+    }
+  ]
+}
